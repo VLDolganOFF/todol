@@ -121,3 +121,12 @@ function deleteTask(id, list) {
 function renderTasksCount(list) {
   dom.count.innerHTML = list.length
 }
+
+ const t = (a, b) => {
+   let x;
+   a = - -b;
+
+   x = b;
+   return x;
+ }
+
